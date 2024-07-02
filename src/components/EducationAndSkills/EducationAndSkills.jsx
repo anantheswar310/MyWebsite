@@ -14,8 +14,8 @@ const EducationAndSkills = () => {
       <div className="container sm:container md:container lg:container xl:container mx-auto">
         <SectionTitle3
           title="Education &"
-          titleInner="Skills"
-          desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+          titleInner="Certifications"
+          //desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
         ></SectionTitle3>
         <div className="eduAndWorkInner relative w-full">
           <div className="grid lg:gap-[1.875rem] gap-[3.125rem] md:grid-cols-1 lg:grid-cols-2 grid-cols-1">

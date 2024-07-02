@@ -6,38 +6,42 @@ import ExpImg4 from "../assets/images/resources/expImg4.jpg";
 export const workExp = [
   {
     expCount: "1",
-    expDate: "2011 - 2014",
+    expDate: "2020 - Present",
     expImg: ExpImg1,
-    expTitle: "UI/UX Creative Design",
-    expSubTitle: "Incident Software House",
-    expDesc:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    expTitle: "Aspire Zone Foundation",
+    expSubTitle: "Solution Architect IT Applications",
+    expDesc: "",
   },
   {
     expCount: "2",
-    expDate: "2015 - 2020",
+    expDate: "2021 - 2021",
     expImg: ExpImg2,
-    expTitle: "Art & Multimedia",
-    expSubTitle: "Oxford Company",
-    expDesc:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    expTitle: "Deloitte",
+    expSubTitle: "Executive Manager - Solution Architecture",
+    expDesc: ""
   },
   {
     expCount: "3",
-    expDate: "2011 - 2014",
+    expDate: "2017 - 2021",
     expImg: ExpImg3,
-    expTitle: "Digital Marketing",
-    expSubTitle: "Your Software House",
-    expDesc:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    expTitle: "United Health Group",
+    expSubTitle: "Senior Software Lead Engineer / Architect",
+    expDesc: ""
   },
   {
     expCount: "4",
-    expDate: "2015 - 2020",
+    expDate: "2012 - 2017",
     expImg: ExpImg4,
-    expTitle: "UI/UX Creative Design",
-    expSubTitle: "Incident Software House",
-    expDesc:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    expTitle: "Motivity Labs",
+    expSubTitle: "Technical Lead",
+    expDesc:""
+  },
+  {
+    expCount: "5",
+    expDate: "2009 - 2011",
+    expImg: ExpImg4,
+    expTitle: "Microsoft (contracted via MAQ Software)",
+    expSubTitle: "Senior Software Engineer",
+    expDesc:""
   },
 ];

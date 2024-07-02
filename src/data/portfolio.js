@@ -11,7 +11,7 @@ export const portfolio = [
     id: 1,
     portBox: "basis-full md:basis-[41.57%] px-[.9375rem]",
     portImg: PortImg1,
-    portTitle: "Graphic Illustration",
+    portTitle: "Solution Architect ICT Applications",
     portSubTitle: "Flat Design stock illustration",
     portcate: "graphic",
   },

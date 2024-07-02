@@ -84,7 +84,7 @@ const AboutUs = (props) => {
                     </li>
                     <li className="grid grid-cols-3 gap-4 text-[1rem] md:text-[1.125rem]">
                       <strong className="text-desc3 uppercase font-bold font-Poppins col-span-1">
-                        Email:
+                        Passions:
                       </strong>
                       <span className="text-desc2 font-semibold font-NunitoSans col-span-2">
                         <a
@@ -92,7 +92,7 @@ const AboutUs = (props) => {
                           href="mailto:anantheswar310@gmail.com"
                           title=""
                         >
-                          anantheswar310@gmail.com
+                          Photography, Football, Coding
                         </a>
                       </span>
                     </li>

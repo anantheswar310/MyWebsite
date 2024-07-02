@@ -28,8 +28,8 @@ const HomePage = () => {
       <MyWorkExperience></MyWorkExperience>
       <EducationAndSkills></EducationAndSkills>
       {/* <Portfolio></Portfolio>
-      <FreelanceWork></FreelanceWork> */}
-      <Testimonials></Testimonials>
+      <FreelanceWork></FreelanceWork> 
+      <Testimonials></Testimonials>*/}
       <BlogPost></BlogPost>
       {/* <Partners></Partners> 
       <ContactInfoProfiles></ContactInfoProfiles>*/}

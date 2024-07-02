@@ -4,7 +4,7 @@ import { SectionTitleIcon } from "../SectionTitles";
 const Skills = (props) => {
   return (
     <div className="skillsWrap relative w-full">
-      <SectionTitleIcon title="Skills"></SectionTitleIcon>
+      <SectionTitleIcon title="Certifications"></SectionTitleIcon>
       <div className="skillsList grid grid-cols-1 sm:grid-cols-2 relative w-full">
         {skills.map(
           (item, index) =>
