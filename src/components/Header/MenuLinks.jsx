@@ -9,9 +9,9 @@ const MenuLinks = () => {
         <li className="menuItemHasChildren relative group text-[1rem] lg:text-[1.125rem] font-Poppins font-semibold uppercase">
           <span className="group-hover:text-accent text-accent2 pr-5 relative block cursor-pointer">
             Home
-            <FiChevronDown className="absolute right-0 top-[4px]"></FiChevronDown>
+            {/* <FiChevronDown className="absolute right-0 top-[4px]"></FiChevronDown> */}
           </span>
-          <ul
+          {/* <ul
             className="children relative lg:absolute opacity-0 top-full left-0 group-hover:opacity-100 lg:invisible lg:group-hover:visible before:absolute before:inset-0 before:bg-gray before:rounded-0 before:lg:rounded-[1.25rem] before:opacity-70 before:z-[-1] bg-blend-multiply rounded-0 lg:rounded-[1.25rem] bg-no-repeat bg-center bg-cover z-[1] bg-gray p-6 flex flex-col gap-3 divide-y divide-[rgba(0,0,0,.15)]"
             style={{ backgroundImage: `url(${PatternImg2})` }}
           >
@@ -33,14 +33,14 @@ const MenuLinks = () => {
                 Homepage 2
               </Link>
             </li>
-          </ul>
+          </ul> */}
         </li>
         <li className="menuItemHasChildren relative group text-[1rem] lg:text-[1.125rem] font-Poppins font-semibold uppercase">
           <span className="group-hover:text-accent text-accent2 pr-5 relative block cursor-pointer">
             Blog
-            <FiChevronDown className="absolute right-0 top-[4px]"></FiChevronDown>
+            {/* <FiChevronDown className="absolute right-0 top-[4px]"></FiChevronDown> */}
           </span>
-          <ul
+          {/* <ul
             className="children relative lg:absolute opacity-0 top-full left-0 group-hover:opacity-100 lg:invisible lg:group-hover:visible before:absolute before:inset-0 before:bg-gray before:rounded-0 before:lg:rounded-[1.25rem] before:opacity-70 before:z-[-1] bg-blend-multiply rounded-0 lg:rounded-[1.25rem] bg-no-repeat bg-center bg-cover z-[1] bg-gray p-6 flex flex-col gap-3 divide-y divide-[rgba(0,0,0,.15)]"
             style={{ backgroundImage: `url(${PatternImg2})` }}
           >
@@ -71,9 +71,9 @@ const MenuLinks = () => {
                 Blog Detail
               </Link>
             </li>
-          </ul>
+          </ul> */}
         </li>
-        <li className="menuItemHasChildren relative group text-[1rem] lg:text-[1.125rem] font-Poppins font-semibold uppercase">
+        {/* <li className="menuItemHasChildren relative group text-[1rem] lg:text-[1.125rem] font-Poppins font-semibold uppercase">
           <span className="group-hover:text-accent text-accent2 pr-5 relative block cursor-pointer">
             Portfolio
             <FiChevronDown className="absolute right-0 top-[4px]"></FiChevronDown>
@@ -148,11 +148,11 @@ const MenuLinks = () => {
               </Link>
             </li>
           </ul>
-        </li>
+        </li> */}
         <li className="menuItemHasChildren relative group text-[1rem] lg:text-[1.125rem] font-Poppins font-semibold uppercase">
           <span className="group-hover:text-accent text-accent2 pr-5 relative block cursor-pointer">
-            Service
-            <FiChevronDown className="absolute right-0 top-[4px]"></FiChevronDown>
+            What I Do?
+            {/* <FiChevronDown className="absolute right-0 top-[4px]"></FiChevronDown> */}
           </span>
           <ul
             className="children relative lg:absolute opacity-0 top-full left-0 group-hover:opacity-100 lg:invisible lg:group-hover:visible before:absolute before:inset-0 before:bg-gray before:rounded-0 before:lg:rounded-[1.25rem] before:opacity-70 before:z-[-1] bg-blend-multiply rounded-0 lg:rounded-[1.25rem] bg-no-repeat bg-center bg-cover z-[1] bg-gray p-6 flex flex-col gap-3 divide-y divide-[rgba(0,0,0,.15)]"

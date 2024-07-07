@@ -9,6 +9,8 @@ const BottomBar = () => {
           <p className="text-desc2 text-[1rem] md:text-[1.0625rem] font-NunitoSans font-semibold">
             &copy; 2024 All Right Reserved.
           </p>
+          <p><a href="https://iconscout.com/icons/github" class="text-underline font-size-sm" target="_blank">Github</a> by <a href="https://iconscout.com/contributors/pixel-icons" class="text-underline font-size-sm" target="_blank">Pixel Icons</a></p>
+          <p><a href="https://iconscout.com/icons/linked" class="text-underline font-size-sm" target="_blank">Linked</a> by <a href="https://iconscout.com/contributors/alfredo-hernandez" class="text-underline font-size-sm">Icons by Alfredo Hernandez</a> on <a href="https://iconscout.com" class="text-underline font-size-sm">IconScout</a></p>
           {/* <ul className="flex relative divide-x divide-solid -mr-6">
             {bottomMenu.map(
               (item, index) =>
