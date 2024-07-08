@@ -34,11 +34,19 @@ const Services = () => {
                           {item.servTitle}
                         </Link>
                       </h3>
-                      <p
+                      <ul className="list-disc list-outside">
+                        {item.serviceItems.map((desc, index) =>
+                          <li key={index}>{desc}</li>
+                          // <ListItem key={desc}
+                          //           value={desc} />
+                        )}
+                      </ul>
+                      
+                      {/* <p
                         className={`text-[1rem] md:text-[1.125rem] font-NunitoSans ${item.descColor}`}
                       >
                         {item.servDesc}
-                      </p>
+                      </p> */}
                     </div>
                   </div>
                 )

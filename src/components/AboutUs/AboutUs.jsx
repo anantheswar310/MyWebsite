@@ -92,7 +92,7 @@ const AboutUs = (props) => {
                           href="mailto:anantheswar310@gmail.com"
                           title=""
                         >
-                          Photography, Football, Coding
+                          Photography, Football, Coding, Riding
                         </a>
                       </span>
                     </li>

@@ -14,6 +14,11 @@ export const services = [
     servIcon: <UiCreativeDesignIcon className="h-[4.25rem] w-[4.25rem] fill-white"></UiCreativeDesignIcon>,
     servTitle: "Software Architecture",
     servDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore.",
+    serviceItems: ['Translating requirements into Technical solutions', 
+      'Design scalable and maintainable Architectures',
+      'Requirements and Design Review workshops',
+      'Define and Ensure NFRs are met',
+      'Supporting business teams with RFP, RFQ, proposals']
   },
   {
     id: 2,
@@ -23,6 +28,11 @@ export const services = [
     servIcon: <WebDevelopmentIcon className="h-[4.25rem] w-[4.25rem] fill-accent"></WebDevelopmentIcon>,
     servTitle: "AI / ML Project Development",
     servDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore.",
+    serviceItems: ['Custom Model Training',
+      'End-to-End ML Ops',
+      'LLM based Apps',
+      'Production grade RAG implementation',
+      'AI agents in action']
   },
   {
     id: 3,
@@ -32,6 +42,11 @@ export const services = [
     servIcon: <WireframingServiceIcon className="h-[4.25rem] w-[4.25rem] fill-accent"></WireframingServiceIcon>,
     servTitle: "Cloud Migration & Infrastructure Design",
     servDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore.",
+    serviceItems: ['Designing landing zone components',
+      'Defining end-to-end solution components',
+      'Cost estimation and optimization',
+      'Ensuring security and WAF compliance',
+      'Governance and Cross-cutting concerns']
   },
   {
     id: 4,
@@ -41,6 +56,11 @@ export const services = [
     servIcon: <DesktopApplicationIcon className="h-[4.25rem] w-[4.25rem] fill-accent"></DesktopApplicationIcon>,
     servTitle: "Technical Leadership",
     servDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore.",
+    serviceItems: ['End-to-end technical ownership of projects',
+      'Leading development teams to success',
+      'Mentoring juniors and code reviews',
+      'Conducting trainings and workshops',
+      'Major incident point of contact']
   },
   {
     id: 5,
@@ -50,5 +70,10 @@ export const services = [
     servIcon: <StrategyIcon className="h-[4.25rem] w-[4.25rem] fill-accent"></StrategyIcon>,
     servTitle: "Fullstack Development",
     servDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore.",
+    serviceItems: ['End to End project delivery',
+      'Front end, Backend & Databases',
+      'CI/ CD with Devops methodologies',
+      'Deployment strategy execution',
+      'Design patterns and best practices']
   }
 ];

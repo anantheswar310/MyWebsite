@@ -6,7 +6,7 @@ export const conInfo = [
   {
     conIcon: <HomeIcon className="h-[3.4375rem] fill-white"></HomeIcon>,
     conTitle: "DOHA:",
-    conCap: "60 East 65th Street NY 10065",
+    conCap: "49 Awqaf Compound, Bin Omran",
   },
   {
     conIcon: <PhoneIcon className="h-[3.4375rem] fill-white"></PhoneIcon>,

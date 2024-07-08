@@ -22,8 +22,8 @@ const HomePage = () => {
       <Helmet>
         <title>Ananth Eswar</title>
       </Helmet>
-      <Header2></Header2>      
-      {/* <Header></Header> */}
+      {/* <Header2></Header2>       */}
+      <Header></Header>
       <FeaturedArea></FeaturedArea>
       <AboutUs></AboutUs>
       <Services></Services>

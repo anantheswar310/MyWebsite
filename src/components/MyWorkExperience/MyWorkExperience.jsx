@@ -20,7 +20,7 @@ const MyWorkExperience = () => {
         <SectionTitleLight
           title="My Work"
           titleInner="Experience"
-          desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+          desc="Worked in services and product based companies. From startups to the biggest tech companies. Insurance, Mobile, Finance, Healthcare, Gaming and Sport Domains"
         ></SectionTitleLight>
         <div className="sliderWrap w-full max-w-full relative lg:mt-0 2xl:-mt-24">
           <Swiper
