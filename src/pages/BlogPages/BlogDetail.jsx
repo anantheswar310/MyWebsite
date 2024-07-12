@@ -53,7 +53,7 @@ const BlogDetail = () => {
     <React.Fragment>
       <Helmet>
         <title>
-          Blog Detail - Fastone Personal Portfolio or CV/Resume React App
+          Blog Detail - Ananth Eswar
         </title>
       </Helmet>
       <Header2></Header2>

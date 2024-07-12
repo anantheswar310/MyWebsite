@@ -15,7 +15,7 @@ const ErrorPage = () => {
     <React.Fragment>
       <Helmet>
         <title>
-          Error Page - Fastone Personal Portfolio or CV/Resume React App
+          Error Page - Ananth Eswar
         </title>
       </Helmet>
       <Header2></Header2>

@@ -21,7 +21,7 @@ const ServiceDetail = () => {
     <React.Fragment>
       <Helmet>
         <title>
-          Service Detail - Fastone Personal Portfolio or CV/Resume React App
+          Service Detail - Ananth Eswar
         </title>
       </Helmet>
       <Header2></Header2>

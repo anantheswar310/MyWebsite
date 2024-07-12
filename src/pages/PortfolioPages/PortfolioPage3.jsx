@@ -66,7 +66,7 @@ const PortfolioPage3 = () => {
     <React.Fragment>
       <Helmet>
         <title>
-          Portfolio - Fastone Personal Portfolio or CV/Resume React App
+          Portfolio - Ananth Eswar
         </title>
       </Helmet>
       <Header2></Header2>

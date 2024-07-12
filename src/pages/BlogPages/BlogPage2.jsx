@@ -15,7 +15,7 @@ const BlogPage2 = () => {
     <React.Fragment>
       <Helmet>
         <title>
-          Blog 2 - Fastone Personal Portfolio or CV/Resume React App
+          Blog 2 - Ananth Eswar
         </title>
       </Helmet>
       <Header2></Header2>

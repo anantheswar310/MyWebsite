@@ -13,7 +13,7 @@ const PlansPage = () => {
   return (
     <React.Fragment>
       <Helmet>
-        <title>Pricing Plans - Fastone Personal Portfolio or CV/Resume React App</title>
+        <title>Pricing Plans - Ananth Eswar</title>
       </Helmet>
       <Header2></Header2>
       <PageTitle

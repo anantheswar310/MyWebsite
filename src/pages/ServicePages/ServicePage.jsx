@@ -16,7 +16,7 @@ const ServicePage = () => {
     <React.Fragment>
       <Helmet>
         <title>
-          My Services - Fastone Personal Portfolio or CV/Resume React App
+          My Services - Ananth Eswar
         </title>
       </Helmet>
       <Header2></Header2>

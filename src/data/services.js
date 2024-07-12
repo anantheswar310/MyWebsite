@@ -1,9 +1,8 @@
-import { ReactComponent as UiCreativeDesignIcon } from "../lib/icons/Curve.svg";
-import { ReactComponent as DesktopApplicationIcon } from "../lib/icons/InformationService.svg";
-import { ReactComponent as WebDevelopmentIcon } from "../lib/icons/Monitor.svg";
-import { ReactComponent as WireframingServiceIcon } from "../lib/icons/WebProgramming.svg";
-import { ReactComponent as StrategyIcon } from "../lib/icons/Strategy.svg";
-import { ReactComponent as TranslationIcon } from "../lib/icons/Translation.svg";
+import ArchitectureIcon from "../lib/icons/algotrhim.png";
+import AIIcon from "../lib/icons/AI.png";
+import CloudIcon from "../lib/icons/virtual desktop.png";
+import LeadershipIcon from "../lib/icons/archive.png";
+import DevelopmentIcon from "../lib/icons/coding.png";
 
 export const services = [
   {
@@ -11,9 +10,9 @@ export const services = [
     bgColor: "bg-accent",
     titleColor: "text-white",
     descColor: "text-white",
-    servIcon: <UiCreativeDesignIcon className="h-[4.25rem] w-[4.25rem] fill-white"></UiCreativeDesignIcon>,
+    servIcon: <ArchitectureIcon className="h-[4.25rem] w-[4.25rem] fill-white"></ArchitectureIcon>,
     servTitle: "Software Architecture",
-    servDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore.",
+    servIconPath: ArchitectureIcon,
     serviceItems: ['Translating requirements into Technical solutions', 
       'Design scalable and maintainable Architectures',
       'Requirements and Design Review workshops',
@@ -25,9 +24,9 @@ export const services = [
     bgColor: "bg-[#f0e1d4]",
     titleColor: "text-accent2",
     descColor: "text-desc2",
-    servIcon: <WebDevelopmentIcon className="h-[4.25rem] w-[4.25rem] fill-accent"></WebDevelopmentIcon>,
+    //servIcon: <AIIcon className="h-[4.25rem] w-[4.25rem] fill-accent"></AIIcon>,
     servTitle: "AI / ML Project Development",
-    servDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore.",
+    servIconPath: AIIcon,
     serviceItems: ['Custom Model Training',
       'End-to-End ML Ops',
       'LLM based Apps',
@@ -39,9 +38,9 @@ export const services = [
     bgColor: "bg-[#d4e4f0]",
     titleColor: "text-accent2",
     descColor: "text-desc2",
-    servIcon: <WireframingServiceIcon className="h-[4.25rem] w-[4.25rem] fill-accent"></WireframingServiceIcon>,
+    //servIcon: <CloudIcon className="h-[4.25rem] w-[4.25rem] fill-accent"></CloudIcon>,
     servTitle: "Cloud Migration & Infrastructure Design",
-    servDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore.",
+    servIconPath: CloudIcon,
     serviceItems: ['Designing landing zone components',
       'Defining end-to-end solution components',
       'Cost estimation and optimization',
@@ -53,9 +52,9 @@ export const services = [
     bgColor: "bg-gray",
     titleColor: "text-accent2",
     descColor: "text-desc2",
-    servIcon: <DesktopApplicationIcon className="h-[4.25rem] w-[4.25rem] fill-accent"></DesktopApplicationIcon>,
+    //servIcon: <LeadershipIcon className="h-[4.25rem] w-[4.25rem] fill-accent"></LeadershipIcon>,
     servTitle: "Technical Leadership",
-    servDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore.",
+    servIconPath: LeadershipIcon,
     serviceItems: ['End-to-end technical ownership of projects',
       'Leading development teams to success',
       'Mentoring juniors and code reviews',
@@ -67,9 +66,9 @@ export const services = [
     bgColor: "bg-[#f0fbfe]",
     titleColor: "text-accent2",
     descColor: "text-desc2",
-    servIcon: <StrategyIcon className="h-[4.25rem] w-[4.25rem] fill-accent"></StrategyIcon>,
+    //servIcon: <DevelopmentIcon className="h-[4.25rem] w-[4.25rem] fill-accent"></DevelopmentIcon>,
     servTitle: "Fullstack Development",
-    servDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore.",
+    servIconPath: DevelopmentIcon,
     serviceItems: ['End to End project delivery',
       'Front end, Backend & Databases',
       'CI/ CD with Devops methodologies',

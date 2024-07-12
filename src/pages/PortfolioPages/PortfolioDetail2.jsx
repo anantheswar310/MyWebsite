@@ -33,7 +33,7 @@ const PortfolioDetail = () => {
     <React.Fragment>
       <Helmet>
         <title>
-          Portfolio Detail - Fastone Personal Portfolio or CV/Resume React App
+          Portfolio Detail - Ananth Eswar
         </title>
       </Helmet>
       <Header2></Header2>

@@ -10,7 +10,7 @@ const ContactPage = () => {
   return (
     <React.Fragment>
       <Helmet>
-        <title>Contact - Fastone Personal Portfolio or CV/Resume React App</title>
+        <title>Contact - Ananth Eswar</title>
       </Helmet>
       <Header2></Header2>
       <PageTitle
