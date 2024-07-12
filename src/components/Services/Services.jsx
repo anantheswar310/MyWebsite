@@ -5,7 +5,7 @@ import { services } from "../../data/services";
 
 const Services = () => {
   return (
-    <section className="servicesWrap pb-[4.5rem] md:pb-[5.5rem] lg:pb-[6.5rem] xl:pb-[7.5rem] relative w-full">
+    <section id="services" className="servicesWrap pb-[4.5rem] md:pb-[5.5rem] lg:pb-[6.5rem] xl:pb-[7.5rem] relative w-full">
       <div className="container mx-auto">
       
       {/* <div className="container sm:container md:container lg:container xl:max-w-[98.125rem] mx-auto">
@@ -27,8 +27,8 @@ const Services = () => {
                         className={`serviceBg before:absolute before:inset-0 before:${item.bgColor} before:rounded-[10px] before:sm:rounded-[1.25rem] before:md:rounded-[3.125rem] before:opacity-70 before:z-[1] bg-blend-multiply absolute rounded-[10px] sm:rounded-[1.25rem] md:rounded-[3.125rem] inset-0 bg-no-repeat bg-center bg-cover z-[-1] ${item.bgColor}`}
                         style={{ backgroundImage: `url(${PatternImg2})` }}
                       ></div>
-                      <span className="inline-block mb-[.9375rem]">
-                        <img src={item.servIconPath} ></img>
+                      <span className="mb-[.9375rem] flex justify-center items-center">
+                        <img src={item.servIconPath} className="w-32 sm:w-auto" ></img>
                         {/* {item.servIcon} */}
                       </span>
                       <h3

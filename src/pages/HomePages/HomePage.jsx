@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import { useRef } from 'react';
 import { Helmet } from "react-helmet";
 import { Header } from "../../components/Header";
 import { Header2 } from "../../components/Header";
@@ -17,6 +18,15 @@ import { ContactUs } from "../../components/ContactUs";
 import { BottomBar } from "../../components/BottomBar";
 
 const HomePage = () => {
+
+  const sectionRef = useRef(null);
+
+  const scrollToSection = () => {
+    if (sectionRef.current) {
+      sectionRef.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <Fragment>
       <Helmet>
@@ -26,6 +36,10 @@ const HomePage = () => {
       <Header></Header>
       <FeaturedArea></FeaturedArea>
       <AboutUs></AboutUs>
+      {/* <section ref={sectionRef} id="section">
+          <h2>Section Below Header</h2>
+          {/* Content of your section 
+      </section> */}
       <Services></Services>
       <MyWorkExperience></MyWorkExperience>
       <EducationAndSkills></EducationAndSkills>
