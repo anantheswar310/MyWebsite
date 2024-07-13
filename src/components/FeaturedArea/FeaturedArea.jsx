@@ -9,7 +9,7 @@ import { social } from "../../data/social";
 
 const FeaturedArea = () => {
   return (
-    <section className="featuredAreaWrap md:text-left text-center bg-dark z-[1] flex items-center bgGrident1 bg-blend-hard-light relative min-h-screen xl:rounded-br-[20rem] lg:rounded-br-[18rem] md:rounded-br-[15rem] sm:rounded-br-[10rem] rounded-br-0 w-screen md:py-[6.25rem] py-20">
+    <section id="featured" className="featuredAreaWrap md:text-left text-center bg-dark z-[1] flex items-center bgGrident1 bg-blend-hard-light relative min-h-screen xl:rounded-br-[20rem] lg:rounded-br-[18rem] md:rounded-br-[15rem] sm:rounded-br-[10rem] rounded-br-0 w-screen md:py-[6.25rem] py-20">
       <div className="shaps absolute inset-0">
         {/* <img className="absolute floatAnim left-[10%] top-[10%] animDelay1" src={Shape1} alt="Shape"></img> */}
         <img className="absolute floatAnim right-[10%] bottom-[20%] animDelay2" src={Shape2} alt="Shape"></img>
@@ -98,7 +98,7 @@ const FeaturedArea = () => {
                           
                         // </Link>
                         <a
-                          className=" text-accent text-[1rem] font-Poppins font-bold uppercase rounded-[5px] md:rounded-[10px] md:px-6 lg:px-8 xl:px-9 px-7 md:py-[1.125rem] py-[14px] text-center inline-block border-2"
+                          className=" text-accent text-[1rem] font-Poppins font-bold uppercase rounded-[5px] md:rounded-[10px] md:px-6 lg:px-8 xl:px-9 px-7 md:py-[9px] py-[10px] text-center inline-block border-2"
                           href={item.socialLink}
                           title={item.socialTitle}
                           target="_blank"

@@ -7,7 +7,7 @@ import { SectionTitle } from "../SectionTitles";
 
 const BlogPost = (props) => {
   return (
-    <section className="postsWrap py-[5rem] sm:py-[6rem] md:py-[7.5rem] relative w-full">
+    <section id="blog" className="postsWrap py-[5rem] sm:py-[6rem] md:py-[7.5rem] relative w-full">
       <div
         className="fixedBg bg-left-top bg-no-repeat opacity-20"
         style={{ backgroundImage: `url(${PatternImg})` }}

@@ -3,7 +3,7 @@ import * as FiIcons from "react-icons/fi";
 export const ResponsiveMenuData = [
   {
     title: "Home",
-    path: "#",
+    path: "featured",
     iconClosed: <FiIcons.FiChevronDown className="text-white" />,
     iconOpened: <FiIcons.FiChevronUp className="text-white" />,
     // responsiveSubNav: [
@@ -17,32 +17,10 @@ export const ResponsiveMenuData = [
     //   },
     // ],
   },
+  
   {
-    title: "Blog",
-    path: "#",
-    iconClosed: <FiIcons.FiChevronDown className="text-white" />,
-    iconOpened: <FiIcons.FiChevronUp className="text-white" />,
-    // responsiveSubNav: [
-    //   {
-    //     title: "Blog Style 1",
-    //     path: "/blog",
-    //     cName: "sub-nav",
-    //   },
-    //   {
-    //     title: "Blog Style 2",
-    //     path: "/blog2",
-    //     cName: "sub-nav",
-    //   },
-    //   {
-    //     title: "Blog Detail",
-    //     path: "/blog/:Id",
-    //     cName: "sub-nav",
-    //   },
-    // ],
-  },
-  {
-    title: "What Do I Do?",
-    path: "#",
+    title: "What I Do?",
+    path: "services",
     iconClosed: <FiIcons.FiChevronDown className="text-white" />,
     iconOpened: <FiIcons.FiChevronUp className="text-white" />,
     // responsiveSubNav: [
@@ -70,7 +48,7 @@ export const ResponsiveMenuData = [
   },
   {
     title: "Work Experience",
-    path: "#",
+    path: "experience",
     iconClosed: <FiIcons.FiChevronDown className="text-white" />,
     iconOpened: <FiIcons.FiChevronUp className="text-white" />,
     // responsiveSubNav: [
@@ -105,7 +83,52 @@ export const ResponsiveMenuData = [
   //   ],
   // },
   {
+    title: "Blog",
+    path: "blog",
+    iconClosed: <FiIcons.FiChevronDown className="text-white" />,
+    iconOpened: <FiIcons.FiChevronUp className="text-white" />,
+    // responsiveSubNav: [
+    //   {
+    //     title: "Blog Style 1",
+    //     path: "/blog",
+    //     cName: "sub-nav",
+    //   },
+    //   {
+    //     title: "Blog Style 2",
+    //     path: "/blog2",
+    //     cName: "sub-nav",
+    //   },
+    //   {
+    //     title: "Blog Detail",
+    //     path: "/blog/:Id",
+    //     cName: "sub-nav",
+    //   },
+    // ],
+  },{
     title: "Contact",
-    path: "/contact",
+    path: "contact",
+    iconClosed: <FiIcons.FiChevronDown className="text-white" />,
+    iconOpened: <FiIcons.FiChevronUp className="text-white" />,
+    // responsiveSubNav: [
+    //   {
+    //     title: "Blog Style 1",
+    //     path: "/blog",
+    //     cName: "sub-nav",
+    //   },
+    //   {
+    //     title: "Blog Style 2",
+    //     path: "/blog2",
+    //     cName: "sub-nav",
+    //   },
+    //   {
+    //     title: "Blog Detail",
+    //     path: "/blog/:Id",
+    //     cName: "sub-nav",
+    //   },
+    // ],
   },
+  // {
+  //   title: "Contact",
+  //   path: "/contact",
+  // },
 ];

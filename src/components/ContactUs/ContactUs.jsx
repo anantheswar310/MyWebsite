@@ -6,7 +6,7 @@ import { SocialLinks } from "../SocialLinks";
 
 const ContactUs = () => {
   return (
-    <section className="contactUsWrap py-[4.5rem] md:py-[5.5rem] lg:py-[6.5rem] xl:py-[7.5rem] relative w-full">
+    <section id="contact" className="contactUsWrap py-[4.5rem] md:py-[5.5rem] lg:py-[6.5rem] xl:py-[7.5rem] relative w-full">
       <div
         className="fixedBg bg-center bg-no-repeat before:absolute before:z-[1] before:inset-0 before:opacity-90 before:bg-accent bg-accent bg-blend-multiply overflow-hidden"
         style={{ backgroundImage: `url(${SectionBg})` }}
