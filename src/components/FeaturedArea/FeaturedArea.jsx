@@ -5,6 +5,7 @@ import Shape1 from "../../assets/images/shape-1.png";
 import Shape2 from "../../assets/images/shape-2.png";
 import Shape3 from "../../assets/images/shape-3.png";
 import Shape4 from "../../assets/images/shape-4.png";
+import { social } from "../../data/social";
 
 const FeaturedArea = () => {
   return (
@@ -63,8 +64,8 @@ const FeaturedArea = () => {
                 <p className="text-[1rem] sm:text-[1.125rem] md:text-[1.25rem] lg:text-[1.25rem] xl:text-[1.375rem] text-desc md:leading-9 sm:leading-7 leading-6 w-full md:w-full lg:w-full xl:w-3/4 mt-4">
                 Passionate about building applications from the ground up. Always a coder, ready to build stuff !!
                 </p>
-                <div className="flex items-center md:justify-start justify-center sm:gap-8 md:gap-10 lg:gap-15 xl:gap-20 gap-8 md:mt-[3.125rem] mt-[1.875rem]">
-                  {/* <Link
+                {/* <div className="flex items-center md:justify-start justify-center sm:gap-8 md:gap-10 lg:gap-15 xl:gap-20 gap-8 md:mt-[3.125rem] mt-[1.875rem]">
+                  <Link
                     className="text-accent uppercase md:text-[1.125rem] text-[1rem] flex gap-5 items-center hover:text-white"
                     to="/"
                     title="Hire Me"
@@ -73,7 +74,7 @@ const FeaturedArea = () => {
                     <span className="font-bold font-Poppins underline underline-offset-8">
                       Hire Me
                     </span>
-                  </Link> */}
+                  </Link> 
                   <Link
                     className="bg-white text-accent text-[1rem] font-Poppins font-bold uppercase rounded-[5px] md:rounded-[10px] md:px-6 lg:px-10 xl:px-11 px-7 md:py-[1.125rem] py-[14px] hover:bg-accent hover:text-white text-center inline-block"
                     to="/"
@@ -81,6 +82,41 @@ const FeaturedArea = () => {
                   >
                     Download CV
                   </Link>
+                </div>*/}
+
+                <div className="socialLinks flex items-center gap-[5px] mt-4">
+                  {social.map(
+                    (item, index) =>
+                      index < 2 && (
+                        // <Link
+                        //   className=" text-accent text-[1rem] font-Poppins font-bold uppercase rounded-[5px] md:rounded-[10px] md:px-6 lg:px-10 xl:px-11 px-7 md:py-[1.125rem] py-[14px] text-center inline-block border-2"
+                        //   //className="bg-white text-accent text-[1rem] font-Poppins font-bold uppercase rounded-[5px] md:rounded-[10px] md:px-6 lg:px-10 xl:px-11 px-7 md:py-[1.125rem] py-[14px] hover:bg-accent hover:text-white text-center inline-block"
+                        //   to={item.socialLink}
+                          
+                        // >
+                          
+                          
+                        // </Link>
+                        <a
+                          className=" text-accent text-[1rem] font-Poppins font-bold uppercase rounded-[5px] md:rounded-[10px] md:px-6 lg:px-8 xl:px-9 px-7 md:py-[1.125rem] py-[14px] text-center inline-block border-2"
+                          href={item.socialLink}
+                          title={item.socialTitle}
+                          target="_blank"
+                          key={index}
+                          rel="noreferrer"
+                        >
+                          <span className="flex space-x-1 justify-center items-center gap-[5px]"  > 
+                            <div>
+                              {item.socialIcon} 
+                            </div>
+                            <div>
+                              {item.socialTitle} 
+                            </div>
+                          </span>
+                        </a>
+                      )
+                  )}
+                  {/* Social Links */}
                 </div>
                 {/* Featured Cap */}
               </div>

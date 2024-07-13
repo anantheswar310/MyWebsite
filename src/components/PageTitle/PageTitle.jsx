@@ -40,7 +40,7 @@ const PageTitle = (props) => {
                 </ul>
               </div>
             </div>
-            <div className="btnBox">
+            {/* <div className="btnBox">
               <Link
                 className="bg-accent text-white text-[1rem] font-Poppins font-bold uppercase rounded-[5px] md:rounded-[10px] md:px-6 lg:px-10 xl:px-11 px-7 md:py-[1.125rem] py-[14px] hover:bg-white hover:text-accent text-center inline-block"
                 to="/"
@@ -48,7 +48,7 @@ const PageTitle = (props) => {
               >
                 Hire Me Now
               </Link>
-            </div>
+            </div> */}
           </div>
           {/* Page Title Box */}
         </div>

@@ -1,13 +1,13 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import { FaHome } from "react-icons/fa";
-import { BottomBar2 } from "../../components/BottomBar";
-import { ContactUs2 } from "../../components/ContactUs";
-import { Header2 } from "../../components/Header";
+import { BottomBar } from "../../components/BottomBar";
+import { ContactUs} from "../../components/ContactUs";
+import { Header } from "../../components/Header";
 import { PageTitle } from "../../components/PageTitle";
 import { Partners2 } from "../../components/Partners";
 import { FiSearch } from "react-icons/fi";
-import ErrorMockup from "../../assets/images/resources/404Mockup.png";
+import ErrorMockup from "../../assets/images/resources/404.png";
 import { Link } from "react-router-dom";
 
 const ErrorPage = () => {
@@ -18,7 +18,7 @@ const ErrorPage = () => {
           Error Page - Ananth Eswar
         </title>
       </Helmet>
-      <Header2></Header2>
+      <Header></Header>
       <PageTitle
         title="404 Error"
         hometitle="Home"
@@ -56,9 +56,9 @@ const ErrorPage = () => {
         </div>
         {/* Page Wrap */}
       </section>
-      <Partners2></Partners2>
-      <ContactUs2></ContactUs2>
-      <BottomBar2></BottomBar2>
+      {/* <Partners2></Partners2> */}
+      <ContactUs></ContactUs>
+      <BottomBar></BottomBar>
     </React.Fragment>
   );
 };

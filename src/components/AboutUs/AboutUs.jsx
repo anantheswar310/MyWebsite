@@ -5,6 +5,7 @@ import { SectionTitle } from "../SectionTitles";
 import AboutImg from "../../assets/images/resources/aboutImg.jpg";
 import { ReactComponent as Signature } from "../../lib/icons/Signature.svg";
 import { GoPrimitiveDot } from "react-icons/go";
+import { Link } from "react-router-dom";
 
 const AboutUs = (props) => {
   return (
@@ -112,6 +113,16 @@ const AboutUs = (props) => {
                         Married, Father of two
                       </span>
                     </li>
+                    <li>
+                      <a 
+                        className="text-accent font-Poppins font-medium hover:text-accent2 underline underline-offset-8 mb-4"
+                        href="https://alphaphotons.com"
+                        title="Click here to View More"
+                        target="_blank"
+                      >
+                        Check out my Photography website
+                      </a>
+                    </li>
                     {/* <li className="grid grid-cols-3 gap-4 text-[1rem] md:text-[1.125rem]">
                       <strong className="text-desc3 uppercase font-bold font-Poppins col-span-1">
                         Freelancer:
@@ -125,7 +136,9 @@ const AboutUs = (props) => {
                       </span>
                     </li> */}
                   </ul>
-                  <Signature className="fill-accent h-[4.5rem] mt-[2.375rem]"></Signature>
+                  
+                  
+                  {/* <Signature className="fill-accent h-[4.5rem] mt-[2.375rem]"></Signature> */}
                   {/* About Cap */}
                 </div>
                 {/* About Cap Wrap */}
