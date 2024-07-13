@@ -1,14 +1,15 @@
-import ExpImg1 from "../assets/images/resources/expImg1.jpg";
-import ExpImg2 from "../assets/images/resources/expImg2.jpg";
-import ExpImg3 from "../assets/images/resources/expImg3.jpg";
-import ExpImg4 from "../assets/images/resources/expImg4.jpg";
+import ExpImg1 from "../assets/images/resources/aspire.png";
+import ExpImg2 from "../assets/images/resources/deloitte.png";
+import ExpImg3 from "../assets/images/resources/uhg.png";
+import ExpImg4 from "../assets/images/resources/motivity.png";
+import ExpImg5 from "../assets/images/resources/microsoft.png";
 
 export const workExp = [
   {
     expCount: "1",
     expDate: "2020 - Present",
     expImg: ExpImg1,
-    expTitle: "Aspire Zone Foundation",
+    expTitle: "INTALEQ - Aspire Zone Foundation",
     expSubTitle: "Solution Architect IT Applications",
     expDesc: "",
   },
@@ -39,7 +40,7 @@ export const workExp = [
   {
     expCount: "5",
     expDate: "2009 - 2011",
-    expImg: ExpImg4,
+    expImg: ExpImg5,
     expTitle: "Microsoft (contracted via MAQ Software)",
     expSubTitle: "Senior Software Engineer",
     expDesc:""
