@@ -15,7 +15,7 @@ const BlogPost = (props) => {
       <div className="container sm:container md:container lg:container xl:container 2xl:container mx-auto">
         <SectionTitle
           title="Featured"
-          titleInner="Posts"
+          titleInner="Blog Posts"
           desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
         ></SectionTitle>
         <div className="postsList grid gap-[1.875rem] lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 relative w-full">

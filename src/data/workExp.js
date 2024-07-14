@@ -7,7 +7,7 @@ import ExpImg5 from "../assets/images/resources/microsoft.png";
 export const workExp = [
   {
     expCount: "1",
-    expDate: "2020 - Present",
+    expDate: "2021 - Present",
     expImg: ExpImg1,
     expTitle: "INTALEQ - Aspire Zone Foundation",
     expSubTitle: "Solution Architect IT Applications",

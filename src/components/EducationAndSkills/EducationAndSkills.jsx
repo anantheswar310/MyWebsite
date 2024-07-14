@@ -1,5 +1,5 @@
 import { SectionTitle3 } from "../SectionTitles";
-import SectionBg from "../../assets/images/secBg3.jpg";
+import SectionBg from "../../assets/images/secBg3.png";
 import { Skills } from "../Skills";
 import { Education } from "../Education";
 
