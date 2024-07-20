@@ -5,17 +5,12 @@ import { ReactComponent as PhoneIcon } from "../lib/icons/Phone.svg";
 export const conInfo = [
   {
     conIcon: <HomeIcon className="h-[3.4375rem] fill-white"></HomeIcon>,
-    conTitle: "DOHA:",
-    conCap: "49 Awqaf Compound, Bin Omran",
-  },
-  {
-    conIcon: <PhoneIcon className="h-[3.4375rem] fill-white"></PhoneIcon>,
-    conTitle: "Phone:",
-    conCap: "+974 7017 5535",
+    conTitle: "Location:",
+    conCap: "Doha, Qatar",
   },
   {
     conIcon: <EnvelopeIcon className="h-[3.4375rem] fill-white"></EnvelopeIcon>,
     conTitle: "Email Address:",
-    conCap: "anantheswar310@gmail.com",
+    conCap: "alphadeveloper881@gmail.com",
   },
 ];

@@ -29,7 +29,7 @@ const Education = (props) => {
                       {item.eduDesc}
                     </span> */}
 
-                    <h3 className="text-accent2 text-[0.875rem] font-Poppins font-bold">
+                    <h3 className="text-accent2 text-[1rem] font-Poppins font-bold">
                       {item.eduTitle}
                     </h3>
                     <span className="text-accent font-NunitoSans font-semibold text-[1rem] md:text-[0.7625rem]">

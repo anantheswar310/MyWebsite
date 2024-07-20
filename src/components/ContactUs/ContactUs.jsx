@@ -15,14 +15,14 @@ const ContactUs = () => {
         <SectionTitleLight2
           title="Contact"
           titleInner="Me"
-          desc="Your email address will not be published. Required fields are marked *"
+          // desc="Your email address will not be published. Required fields are marked *"
         ></SectionTitleLight2>
         <div className="contactUs grid gap-[1.875rem] lg:grid-cols-2 md:grid-cols-1 grid-cols-1 relative w-full">
           <div>
             <ContactForm></ContactForm>
           </div>
           <div className="flex flex-col gap-[1.875rem] md:gap-[2.5rem] lg:gap-[3.4375rem]">
-            <ContactInfo></ContactInfo>
+            {/* <ContactInfo></ContactInfo> */}
             <SocialLinks></SocialLinks>
           </div>
           {/* Contact Us */}

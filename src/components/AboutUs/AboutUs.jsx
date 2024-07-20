@@ -18,7 +18,7 @@ const AboutUs = (props) => {
         <SectionTitle
           title="About"
           titleInner="Me"
-          desc="Lorem ipsum dolor sit amet... just kidding!!!"
+          //desc="Lorem ipsum dolor sit amet... just kidding!!!"
         ></SectionTitle>
         <div className="aboutUs relative w-full p-[1.25rem] lg:p-[1.875rem] mt-[5.9375rem]">
           <div
