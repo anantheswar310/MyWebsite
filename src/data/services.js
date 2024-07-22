@@ -1,8 +1,8 @@
-import ArchitectureIcon from "../lib/icons/algotrhim.png";
-import AIIcon from "../lib/icons/AI.png";
-import CloudIcon from "../lib/icons/virtual desktop.png";
-import LeadershipIcon from "../lib/icons/archive.png";
-import DevelopmentIcon from "../lib/icons/coding.png";
+import ArchitectureIcon from "../lib/icons/algotrhim-152.png";
+import AIIcon from "../lib/icons/AI-152.png";
+import CloudIcon from "../lib/icons/virtual desktop-152.png";
+import LeadershipIcon from "../lib/icons/archive-152.png";
+import DevelopmentIcon from "../lib/icons/coding-152.png";
 
 export const services = [
   {

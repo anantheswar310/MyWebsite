@@ -1,11 +1,11 @@
 import React, { useLayoutEffect, useRef, useState } from "react";
-import { Link } from "react-router-dom";
-import { CgClose, CgMenuRight } from "react-icons/cg";
-import Logo from "../../assets/images/logo.png";
-import { SocialLinks6 } from "../SocialLinks";
+//import { Link } from "react-router-dom";
+//import { CgClose, CgMenuRight } from "react-icons/cg";
+//import Logo from "../../assets/images/logo.png";
+//import { SocialLinks6 } from "../SocialLinks";
 import MenuLinks from "./MenuLinks";
-import { MenuData } from "./SideMenu/MenuData";
-import SubMenu from "./SideMenu/SubMenu";
+//import { MenuData } from "./SideMenu/MenuData";
+//import SubMenu from "./SideMenu/SubMenu";
 import { ResponsiveHeader } from "../ResponsiveHeader";
 
 const Header = () => {
