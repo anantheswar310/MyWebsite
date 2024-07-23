@@ -43,7 +43,7 @@ const Header2 = () => {
           <div className="container sm:container md:container lg:container xl:container 2xl:max-w-[100rem] mx-auto">
             <div className="logoMenuInner flex items-center justify-between relative w-full">
               {/* <div className="logo inline-block max-w-[50%]">
-                <Link to="/home2" title="Fastone">
+                <Link to="/home2" title="AnanthEswar">
                   <img src={Logo2} alt="Logo"></img>
                 </Link>
               </div> */}

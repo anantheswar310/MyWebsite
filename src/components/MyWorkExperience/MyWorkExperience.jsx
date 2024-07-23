@@ -16,13 +16,13 @@ const MyWorkExperience = () => {
         className="fixedBg bg-center bg-cover bg-no-repeat before:absolute before:z-[1] before:inset-0 before:opacity-90 before:bg-dark bg-dark gradBg1 bg-blend-color-dodge xl:rounded-tl-[20rem] lg:rounded-tl-[18rem] md:rounded-tl-[15rem] sm:rounded-tl-[10rem] rounded-tl-0 overflow-hidden"
         style={{ backgroundImage: `url(${SectionBg})` }}
       ></div>
-      <div className="container sm:container md:container lg:container xl:max-w-[86.875rem] mx-auto">
+      <div className="container mx-auto">
         <SectionTitleLight
           title="My Work"
           titleInner="Experience"
           desc="Worked in services and product based companies. From startups to the biggest tech companies. Insurance, Mobile, Finance, Healthcare, Gaming and Sport Domains"
         ></SectionTitleLight>
-        <div className="sliderWrap w-full max-w-full relative lg:mt-20 xl:-mt-24">
+        <div className="sliderWrap w-full max-w-full relative lg:mt-20 xl:mt-24">
 
           <ul className="simpleList grid grid-cols-1 md:grid-cols-2 gap-2">
             {workExp.map((item, i) => {
@@ -47,7 +47,7 @@ const MyWorkExperience = () => {
                         <div className="gridItem flex gap-4 justify-center ">
 
                           {/* </div><div className="expImg relative overflow-hidden rounded-[10px] sm:rounded-[1.25rem] lg:rounded-[1.875rem] xl:rounded-[3.125rem] max-h-[14rem] opacity-0"> */}
-                          <div className="expImg relative overflow-hidden max-h-[14rem] opacity-0 justify-center">
+                          <div className="expImg relative overflow-hidden max-h-[14rem] justify-center">
                             <img
                               className="w-[200px] "
                               src={item.expImg}
@@ -55,7 +55,7 @@ const MyWorkExperience = () => {
                             ></img>
                             {/* Work Experience Image */}
                           </div>
-                          <div className="expCap relative w-full pl-0 xl:pl-[7.5rem]">
+                          <div className="expCap relative w-full pl-0 ">
                             {/* <i className="text-white before:bg-dark3 before:rotate-[45deg] before:rounded-[.9375rem] before:inset-0 before:absolute before:z-[-1] font-Poppins font-extrabold text-[1.875rem] md:text-[2.75rem] lg:text-[3.75rem] not-italic h-[3.125rem] w-[3.125rem] md:h-[5rem] md:w-[5rem] lg:h-[7.5rem] lg:w-[7.5rem] inline-flex justify-center items-center absolute left-0 top-5 z-[-1]">
                               {item.expCount}
                             </i> */}

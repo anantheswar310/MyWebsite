@@ -1,7 +1,7 @@
 import { SectionTitleLight2 } from "../SectionTitles";
 import SectionBg from "../../assets/images/secBg5.jpg";
 import { ContactForm } from "../ContactForm";
-import { ContactInfo } from "../ContactInfo";
+//import { ContactInfo } from "../ContactInfo";
 import { SocialLinks } from "../SocialLinks";
 
 const ContactUs = () => {

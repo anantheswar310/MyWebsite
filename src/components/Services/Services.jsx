@@ -28,7 +28,7 @@ const Services = () => {
                         style={{ backgroundImage: `url(${PatternImg2})` }}
                       ></div>
                       <span className="mb-[.9375rem] flex justify-center items-center">
-                        <img src={item.servIconPath} className="w-32 sm:w-auto" ></img>
+                        <img src={item.servIconPath} className="w-32 sm:w-auto" alt={item.servTitle} ></img>
                         {/* {item.servIcon} */}
                       </span>
                       <h3

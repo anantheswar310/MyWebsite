@@ -3,25 +3,27 @@ const ContactForm = () => {
     <div className="contactFormWrap relative w-full">
       <form className="grid gap-[1.875rem] md:grid-cols-2 grid-cols-1">
         <div className="fieldBox w-full col-span-2">
-          <label className="text-[1rem] text-white font-Poppins font-medium px-[10px] md:px-[1.125rem] mb-[10px] block">
+          <label className="text-[1rem] text-white font-Poppins font-medium px-[10px] md:px-[1.125rem] mb-[10px] block" for="message" >
             Write a Message
           </label>
-          <textarea className="border-2 border-solid border-[#a9a9a9] focus:border-[rgba(255,255,255,.5)] focus:outline-0 bg-[transparent] rounded-[10px] md:rounded-[.9375rem] lg:rounded-[1.25rem] w-full h-[8rem] md:h-[13.125rem] p-[1.125rem] text-white"></textarea>
+          <textarea id="message" className="border-2 border-solid border-[#a9a9a9] focus:border-[rgba(255,255,255,.5)] focus:outline-0 bg-[transparent] rounded-[10px] md:rounded-[.9375rem] lg:rounded-[1.25rem] w-full h-[8rem] md:h-[13.125rem] p-[1.125rem] text-white"></textarea>
         </div>
         <div className="fieldBox w-full">
-          <label className="text-[1rem] text-white font-Poppins font-medium px-[10px] md:px-[1.125rem] mb-[10px] block">
+          <label className="text-[1rem] text-white font-Poppins font-medium px-[10px] md:px-[1.125rem] mb-[10px] block" for="contactName">
             Your Name
           </label>
           <input
+            id="contactName"
             type="text"
             className="border-2 border-solid border-[#a9a9a9] focus:border-[rgba(255,255,255,.5)] focus:outline-0 bg-[transparent] rounded-[10px] md:rounded-[.9375rem] lg:rounded-[1.25rem] w-full h-[2.5rem] md:h-[3.875rem] p-[10px] md:p-[1.125rem] text-white"
           ></input>
         </div>
         <div className="fieldBox w-full">
-          <label className="text-[1rem] text-white font-Poppins font-medium px-[10px] md:px-[1.125rem] mb-[10px] block">
+          <label className="text-[1rem] text-white font-Poppins font-medium px-[10px] md:px-[1.125rem] mb-[10px] block" for="email" >
             Your Email
           </label>
           <input
+            id="email"
             type="email"
             className="border-2 border-solid border-[#a9a9a9] focus:border-[rgba(255,255,255,.5)] focus:outline-0 bg-[transparent] rounded-[10px] md:rounded-[.9375rem] lg:rounded-[1.25rem] w-full h-[2.5rem] md:h-[3.875rem] p-[10px] md:p-[1.125rem] text-white"
           ></input>

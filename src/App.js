@@ -10,11 +10,11 @@ function App() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 2000);
+    }, 1000);
   }, []);
 
   return (
-    <div className="fastoneApp">
+    <div className="AnanthEswarApp">
       {loading ? (
         <div className="pageLoader fixed justify-center items-center inset-0 flex">
           <PushSpinner 

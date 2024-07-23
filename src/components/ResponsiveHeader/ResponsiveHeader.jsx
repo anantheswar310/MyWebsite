@@ -16,7 +16,7 @@ const ResponsiveHeader = () => {
         <div className="container mx-auto sm:container md:container lg:container xl:container 2xl:container">
           <div className="flex items-center justify-between w-full topbarInner">
             <div className="logo inline-block max-w-[50%]">
-              {/* <Link to="/" title="Fastone">
+              {/* <Link to="/" title="AnanthEswar">
                 <img src={Logo} alt="Logo"></img>
               </Link> */}
               {/* Logo */}
