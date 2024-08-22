@@ -34,9 +34,10 @@ const Services = () => {
                       <h3
                         className={`text-[1.3rem] lg:text-[1.125rem] xl:text-[1.5rem] font-Poppins font-semibold max-w-full sm:max-w-full lg:max-w-full xl:max-w-[90%] ${item.titleColor}`}
                       >
-                        <Link to={`/service/${item.id}`} title={item.servTitle}>
+                        {item.servTitle}
+                        {/* <Link to={`/service/${item.id}`} title={item.servTitle}>
                           {item.servTitle}
-                        </Link>
+                        </Link> */}
                       </h3>
                       <ul className="list-disc list-outside">
                         {item.serviceItems.map((desc, index) =>
