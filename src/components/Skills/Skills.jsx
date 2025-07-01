@@ -8,7 +8,7 @@ const Skills = (props) => {
       <div className="skillsList grid grid-cols-1 sm:grid-cols-1 relative w-full">
         {skills.map(
           (item, index) =>
-            index < 6 && (
+            index < skills.length && (
               // <div className={item.skillBox} key={index}>
               <div className="flex justify-center mb-2 gap-1" key={index}>  
                 <span className="bg-white rounded-[10px] h-[3.375rem] w-[4.375rem] inline-flex items-center justify-center">
