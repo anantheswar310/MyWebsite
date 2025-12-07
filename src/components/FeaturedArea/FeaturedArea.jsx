@@ -28,9 +28,9 @@ const FeaturedArea = () => {
                 <div className="featuredImgInner relative inline-block w-4/5 sm:w-full md:w-full lg:w-[26rem] xl:w-[35rem]">
                   {/* <span className="h-[8rem] w-[8rem] sm:h-[14rem] sm:w-[14rem] md:h-[10rem] md:w-[10rem] lg:h-[14rem] lg:w-[14rem] xl:h-[18.75rem] xl:w-[18.75rem] absolute bg-white rounded-full right-[-2.5rem] top-[-2.5rem] md:right-[-3.5rem] md:top-[-3.5rem] lg:right-[-4rem] lg:top-[-4rem] xl:right-[-6.25rem] xl:top-[-6.25rem] z-[1]"></span> */}
                   {/* <span className="h-[8rem] w-[8rem] sm:h-[14rem] sm:w-[14rem] md:h-[10rem] md:w-[10rem] lg:h-[14rem] lg:w-[14rem] xl:h-[18.75rem] xl:w-[18.75rem] absolute bg-dark2 rounded-full left-[-2.5rem] bottom-[-2.5rem] md:right-[-3.5rem] md:bottom-[-3.5rem] lg:left-[-4rem] lg:bottom-[-4rem] xl:left-[-6.25rem] xl:bottom-[-6.25rem] z-[1]"></span> */}
-                  <div className="featuredImg relative rounded-full">
+                  <div className="featuredImg relative rounded-full items-center justify-center flex mx-auto w-full">
                     <img
-                      className="rounded-full relative z-[1] max-w-full"
+                      className="rounded-full relative z-[1] w-4/5 "
                       src={FeatImg}
                       alt=""
                     ></img>
@@ -58,7 +58,7 @@ const FeaturedArea = () => {
                   Solution Architect and Data Scientist
                 </h5>
                 <p className="text-[1rem] sm:text-[1.125rem] md:text-[1.25rem] lg:text-[1.25rem] xl:text-[1.375rem] text-desc md:leading-9 sm:leading-7 leading-6 w-full md:w-full lg:w-full xl:w-3/4 mt-6">
-                Cloud Solution Architect with 14+ years of experience in all phases of software development and in-depth knowledge of Architecture, Full stack development, Data Analytics, AI/ Machine Learning, and Devops methodologies. 
+                Cloud Solution Architect with 15+ years of experience in all phases of software development and in-depth knowledge of Architecture, Full stack development, Data Analytics, AI/ Machine Learning, and Devops methodologies. 
                 
                 </p>
                 <p className="text-[1rem] sm:text-[1.125rem] md:text-[1.25rem] lg:text-[1.25rem] xl:text-[1.375rem] text-desc md:leading-9 sm:leading-7 leading-6 w-full md:w-full lg:w-full xl:w-3/4 mt-4">
