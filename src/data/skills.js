@@ -4,8 +4,16 @@ import { ReactComponent as PhotoshopIcon } from "../lib/icons/Photoshop.svg";
 import { ReactComponent as WordPressIcon } from "../lib/icons/WordPress.svg";
 import { ReactComponent as MicrosoftIcon } from "../lib/icons/microsoft.svg";
 import { ReactComponent as GoogleIcon } from "../lib/icons/google.svg";
+import { ReactComponent as SafeIcon } from "../lib/icons/certified-safe-6-architect.png";
 
 export const skills = [
+  {
+    skillBox: "pb-10 sm:pt-5 sm:pb-10 sm:pr-10 border-r-0 sm:border-r-[1px] border-b-[1px] border-[#9bb1cf]",
+    skillIcon: <SafeIcon className="h-10 w-10"></SafeIcon>,
+    skillTitle: "Certified SAFe 6 Architect",
+    skillDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    skillPercent: "62%",
+  },
   {
     skillBox: "pb-10 sm:pt-5 sm:pb-10 sm:pr-10 border-r-0 sm:border-r-[1px] border-b-[1px] border-[#9bb1cf]",
     skillIcon: <GoogleIcon className="h-10 w-10"></GoogleIcon>,
