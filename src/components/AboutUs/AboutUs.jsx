@@ -66,7 +66,7 @@ const AboutUs = (props) => {
                         Age:
                       </strong>
                       <span className="text-desc2 font-semibold font-NunitoSans col-span-2">
-                        38
+                        39
                       </span>
                     </li>
                     <li className="grid grid-cols-3 gap-4 text-[1rem] md:text-[1.125rem]">
