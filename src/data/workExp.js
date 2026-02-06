@@ -1,5 +1,6 @@
-import ExpImg1 from "../assets/images/resources/aspire.png";
-import ExpImg2 from "../assets/images/resources/deloitte.png";
+import ExpImg1 from "../assets/images/resources/qatarairways.jpg";
+import ExpImg2 from "../assets/images/resources/aspire.png";
+//import ExpImg2 from "../assets/images/resources/deloitte.png";
 import ExpImg3 from "../assets/images/resources/uhg.png";
 import ExpImg4 from "../assets/images/resources/motivity.png";
 import ExpImg5 from "../assets/images/resources/microsoft.png";
@@ -7,7 +8,7 @@ import ExpImg5 from "../assets/images/resources/microsoft.png";
 export const workExp = [
   {
     expCount: "1",
-    expDate: "2021 - Present",
+    expDate: "2026 - Present",
     expImg: ExpImg1,
     expTitle: "INTALEQ - Aspire Zone Foundation",
     expSubTitle: "Solution Architect IT Applications",
@@ -15,11 +16,11 @@ export const workExp = [
   },
   {
     expCount: "2",
-    expDate: "2021 - 2021",
+    expDate: "2021 - 2026",
     expImg: ExpImg2,
-    expTitle: "Deloitte",
-    expSubTitle: "Executive Manager - Solution Architecture",
-    expDesc: ""
+    expTitle: "INTALEQ - Aspire Zone Foundation",
+    expSubTitle: "Solution Architect IT Applications",
+    expDesc: "",
   },
   {
     expCount: "3",

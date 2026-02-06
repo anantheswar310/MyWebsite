@@ -58,7 +58,7 @@ const FeaturedArea = () => {
                   Solution Architect and Data Scientist
                 </h5>
                 <p className="text-[1rem] sm:text-[1.125rem] md:text-[1.25rem] lg:text-[1.25rem] xl:text-[1.375rem] text-desc md:leading-9 sm:leading-7 leading-6 w-full md:w-full lg:w-full xl:w-3/4 mt-6">
-                Cloud Solution Architect with 15+ years of experience in all phases of software development and in-depth knowledge of Architecture, Full stack development, Data Analytics, AI/ Machine Learning, and Devops methodologies. 
+                Solution Architect with 16+ years of experience in all phases of software development and in-depth knowledge of Architecture, Multi Cloud, Full stack development, Data Analytics, AI/ Machine Learning, and Devops methodologies. 
                 
                 </p>
                 <p className="text-[1rem] sm:text-[1.125rem] md:text-[1.25rem] lg:text-[1.25rem] xl:text-[1.375rem] text-desc md:leading-9 sm:leading-7 leading-6 w-full md:w-full lg:w-full xl:w-3/4 mt-4">
