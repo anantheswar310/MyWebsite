@@ -10,8 +10,8 @@ export const workExp = [
     expCount: "1",
     expDate: "2026 - Present",
     expImg: ExpImg1,
-    expTitle: "INTALEQ - Aspire Zone Foundation",
-    expSubTitle: "Solution Architect IT Applications",
+    expTitle: "Qatar Airways",
+    expSubTitle: "Solution Architect",
     expDesc: "",
   },
   {
@@ -19,7 +19,7 @@ export const workExp = [
     expDate: "2021 - 2026",
     expImg: ExpImg2,
     expTitle: "INTALEQ - Aspire Zone Foundation",
-    expSubTitle: "Solution Architect IT Applications",
+    expSubTitle: "Solution Architect - IT Applications",
     expDesc: "",
   },
   {
