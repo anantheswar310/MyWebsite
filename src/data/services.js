@@ -28,12 +28,10 @@ export const services = [
     servTitle: "AI / ML Project Development",
     servIconPath: AIIcon,
     serviceItems: [
-      'Enterprise MLOps & Lifecycle Automation',
+      'End to End Enterprise MLOps',
       'Custom Model Training with neural networks',
-      'Conversational Chat bots with intent recognition',
-      'Building High-Fidelity RAG Systems with LLMs and vector databases',
-      'Building Multi-Agent Orchestration & Autonomous Workflows',
-      'Building Multimodal AI Solutions with Gemini Multimodality',
+      'Conversational RAG based Chat bots Systems with LLMs and vector databases',
+      'Building Agentic AI solutions with Crew AI and Langchain',
       'Sentiment Analysis, Predictive Maintenance, Object Detection, OCR, and more']
   },
   {
