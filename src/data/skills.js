@@ -1,6 +1,6 @@
 import { ReactComponent as MicrosoftIcon } from "../lib/icons/microsoft.svg";
 import { ReactComponent as GoogleIcon } from "../lib/icons/google.svg";
-import { ReactComponent as SafeIcon } from "../lib/icons/certified-safe-6-architect.png";
+import { ReactComponent as SafeIcon } from "../lib/icons/certified-safe-6-architect.svg";
 
 export const skills = [
   {
