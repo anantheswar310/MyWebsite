@@ -1,7 +1,3 @@
-import { ReactComponent as JavaScriptIcon } from "../lib/icons/JavaScript.svg";
-import { ReactComponent as HtmlIcon } from "../lib/icons/Html.svg";
-import { ReactComponent as PhotoshopIcon } from "../lib/icons/Photoshop.svg";
-import { ReactComponent as WordPressIcon } from "../lib/icons/WordPress.svg";
 import { ReactComponent as MicrosoftIcon } from "../lib/icons/microsoft.svg";
 import { ReactComponent as GoogleIcon } from "../lib/icons/google.svg";
 import { ReactComponent as SafeIcon } from "../lib/icons/certified-safe-6-architect.png";
