@@ -29,8 +29,8 @@ export const services = [
     servIconPath: AIIcon,
     serviceItems: [
       'End to End Enterprise MLOps',
-      'Custom Model Training with neural networks',
-      'Conversational RAG based Chat bots Systems with LLMs and vector databases',
+      'Custom Model Training with Convolutional Neural Networks',
+      'RAG based Chat bots with LLMs and vector databases',
       'Building Agentic AI solutions with Crew AI and Langchain',
       'Sentiment Analysis, Predictive Maintenance, Object Detection, OCR, and more']
   },
